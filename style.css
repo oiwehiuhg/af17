@@ -1,0 +1,43 @@
+/* 1. Typography - one clean font for the whole page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* 4. box-shadow - lift the app card off the page */
+#app {
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* 2. text-transform - make the app title shout */
+#app-title {
+    text-transform: uppercase;
+}
+
+/* 3. text-decoration - underline the two labels */
+#balance-label,
+#amount-label {
+    text-decoration: underline;
+}
+
+/* 5. box-shadow + colour - each button gets its own colour and lift */
+.action {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.credit {
+    background: green;
+}
+
+.debit {
+    background: red;
+}
+
+/* 6. text-decoration - strike through the terms note */
+#note {
+    text-decoration: line-through;
+}
